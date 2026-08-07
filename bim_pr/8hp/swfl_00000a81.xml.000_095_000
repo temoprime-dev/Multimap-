@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BINARY-HEADER xmlns="binary-header.xsd" MODEL-VERSION="2.1.0">
+
+  <BINARY-FLASHBLOCK>
+    <SHORT-NAME>swfl_00000a81</SHORT-NAME>
+    <DESC>
+      <p>$DIF_Ref1: btld-00000c7c-012.068.000
+        <br>$DIF_Bordnetzteilnehmer: EGS__GKEB23</br>
+        <br>$DIF_Musterstand: D1</br>
+        <br>$DIF_SweArt: PST</br>
+        <br>$DIF_VARIANTE:</br>
+        <br>$DIF_Entwickler_Kommentar: J950-000</br>
+      </p>
+    </DESC>
+    <ADMIN-DATA>
+      <DOC-REVISIONS>
+        <DOC-REVISION>
+          <TOOL> SWE created by SWE-Generator 3.04.00 with config-file REMOVED
+</TOOL>
+        </DOC-REVISION>
+      </DOC-REVISIONS>
+    </ADMIN-DATA>
+    <SDGS>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>Ident</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="ProcessClass">swfl</SD>
+        <SD SI="Identifier">00000a81</SD>
+        <SD SI="Version">000_095_000</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>Format</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="AddressRange">32</SD>
+        <SD SI="NumberOfBytes"></SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>DescriptionTable</SHORT-NAME>
+        </SDG-CAPTION>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SWEDescriptionTableStartAddress</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="TARGET-START-ADDRESS">17FC00</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SWESignatureAddress</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="TARGET-START-ADDRESS">17FC08</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SWEDevelopmentInfoFieldAddress</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="TARGET-START-ADDRESS">17FC8C</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SWEDescriptionTableEndAddress</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="TARGET-START-ADDRESS">17FD8B</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SignatureTable</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="SignatureStatus">SIGNED</SD>
+        <SD SI="SignatureKeyLength">1024</SD>
+        <SD SI="SignatureHashMode">MD5</SD>
+        <SD SI="SignatureMode">rsa</SD>
+        <SD SI="SignatureByteOrder">MOTOROLA</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SignatureSegment1</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="StartAddressTarget">40000</SD>
+        <SD SI="EndAddressTarget">17FC07</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SignatureSegment2</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="StartAddressTarget">17FC8C</SD>
+        <SD SI="EndAddressTarget">17FDFF</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>CARB9CVN</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD>7A8A6615</SD>
+      </SDG>
+    </SDGS>
+    <FLASH-SEGMENTS>
+      <FLASH-SEGMENT COMPRESSION-STATUS="COMPRESSED">
+        <SHORT-NAME>swfl_00000a81_40000</SHORT-NAME>
+        <SOURCE-START-ADDRESS>00000</SOURCE-START-ADDRESS>
+        <SOURCE-END-ADDRESS>BD35B</SOURCE-END-ADDRESS>
+        <TARGET-START-ADDRESS>40000</TARGET-START-ADDRESS>
+        <TARGET-END-ADDRESS>17FDFF</TARGET-END-ADDRESS>
+        <COMPRESSION-METHOD>NRV</COMPRESSION-METHOD>
+        <CHECKSUM>2CB7</CHECKSUM>
+      </FLASH-SEGMENT>
+    </FLASH-SEGMENTS>
+  </BINARY-FLASHBLOCK>
+
+</BINARY-HEADER>
